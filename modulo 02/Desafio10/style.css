@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin: 15px 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: #20c02b9a;
+}
+header{
+    background-image: linear-gradient(to top, #20C02B,#329639,#366B39);
+    min-height: 150px;
+}
+header h1{
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+header p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+header nav{
+    margin-top: 1%;
+}
+
+header nav a{
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+header nav a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.329);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main h2{
+    font-family: 'Android', sans-serif;
+    color: #20C02B;
+    background-image: linear-gradient(to right, #02ff4e54, #02ff4e3a, #ffffff83);
+    text-indent: 8px;
+}
+main p a{
+    font-family: 'Android', sans-serif;
+    color: #20C02B;
+    text-decoration: none;
+}
+
+main a:hover{   
+    text-decoration: underline;
+    color: #6ceb747e;
+}
+
+main p{
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 16px;
+    line-height: 1.5em;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+}
+
+main img.pequena{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+picture{
+    display: block;
+    margin: 0 auto;
+}
+
+div.video{
+    background-color: #366B39;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.7%;
+    position: relative;
+}
+
+div.video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border: none;
+}
+
+aside{
+    background-color: #73f7aa;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside > h3{
+    background-color: #20c02b;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0';
+    columns: 2;
+    margin-left: 2%;
+}
+
+footer{
+    background-color: #15911d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    margin-top: 2.5%;
+}
+
+footer p{
+    font-size: 0.9em;
+}
